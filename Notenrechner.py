@@ -4,8 +4,7 @@ class Notenrechner:
 
 
         # Methode die ich aufrufe, aber muss nicht in Konstruktor
-        self.berechne_durchschnitt = self.berechne_durchschnitt()
-
+        
 
     # auf die Eigenschaften der Klasse greift die Methode über self zu
     def berechne_durchschnitt(self) -> float:
@@ -15,15 +14,19 @@ class Notenrechner:
         return sum(self.noten) / len(self.noten)
 
 
-    def Note_hinzufügen(self) -> int:
-        if <= 1 noten <= 6:
-            self.noten.append
+    def Note_hinzufügen(self, neue_note) -> int:
+        if 1 <= neue_note <= 6:
+            self.noten.append(neue_note)
+        else: 
+            print("ungültige Zahl")
+            
 
 
 
 Rechnung = Notenrechner([1, 4, 6, 6, 4, 1, 2,3])
         
-
-print(Rechnung.berechne_durchschnitt)
+Rechnung.Note_hinzufügen(4)
+print(Rechnung.noten)
+print(Rechnung.berechne_durchschnitt())
 
 
