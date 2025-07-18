@@ -1,0 +1,2 @@
+class Transaktion (Bankkonto):
+    pass 
