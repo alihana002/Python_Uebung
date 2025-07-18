@@ -29,7 +29,7 @@ class Bankkonto:
         self._Transaktionsverlauf.append(kontostand_neu)
         self._kontostand = kontostand_neu 
 
-
+ 
     def einzahlen(self, betrag:float):
 
         self._kontostand = betrag + self._kontostand
