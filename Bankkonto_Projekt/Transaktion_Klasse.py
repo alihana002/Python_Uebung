@@ -1,2 +1,11 @@
+from Bankkon
 class Transaktion (Bankkonto):
-    pass 
+    
+    def __init__(self,)
+        super()._
+
+
+
+Verlauf = Transaktion()
+
+Verlauf.
